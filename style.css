@@ -1,0 +1,40 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+      /* position: relative; */
+    }
+    .meal {
+      max-width: 90vw;
+      margin: 0 auto;
+      line-height: 40px;
+      height: 100vh;
+      img{
+        width: 40vw;
+        /* height: 90%; */
+        /* position:absolute; */
+        /* left: 30px; */
+        /* bottom: 20px; */
+      }
+    }
+    .meal img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .error {
+      color: red;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 20px 0;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
